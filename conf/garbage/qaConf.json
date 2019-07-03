@@ -1,0 +1,35 @@
+{
+  "log": {
+    "file": "/tmp/app.log",
+    "maxCnt": 10,
+    "maxSize": 100000000,
+    "minLevel": "trace"
+  },
+
+  "db": {
+    "user": "root",
+    "password": "",
+    "host": "",
+    "db_name": "qukan_wailaxin",
+    "charset": "utf8"
+  },
+
+  "redis": {
+    "host": "redis://127.0.0.1:6379",
+    "password": "",
+    "dbNum" : "0",
+    "redisMaxIdle": 20,
+    "redisIdleTimeoutSec" :240,
+    "redisPassword": ""
+  },
+
+  "kafka": {
+    "kafkaServer": "47.104.187.204:9192",
+    "kafkaTopic": "log_wailaxin",
+    "kafkaCmd"  :"17300",
+    "kafkaGroup" :"my-consumer-group"
+  }
+
+
+
+}
